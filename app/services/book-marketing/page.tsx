@@ -1,4 +1,11 @@
+import { Metadata } from "next"
 import { BookMarketingHero } from "@/components/services/book-marketing/hero"
+
+export const metadata: Metadata = {
+  title: "Book Marketing Services | Best Seller Strategy",
+  description:
+    "Comprehensive book marketing services including Amazon Ads, social media promotion, and launch strategies to make your book a bestseller.",
+}
 import { BookMarketingContent } from "@/components/services/book-marketing/content-section"
 import { MarketingStrategies } from "@/components/services/book-marketing/marketing-strategies"
 import { MarketingCaseStudies } from "@/components/services/book-marketing/case-studies"

@@ -1,4 +1,11 @@
+import { Metadata } from "next"
 import { HeroSection } from "@/components/training/hero-section"
+
+export const metadata: Metadata = {
+  title: "Training & Workshops | Master Book Marketing",
+  description:
+    "Join our training programs and workshops to master the art of book marketing. Learn directly from industry experts.",
+}
 import { TrainingContent } from "@/components/training/content-section"
 import { TrainingPrograms } from "@/components/training/training-programs"
 import { WorkshopCalendar } from "@/components/training/workshop-calendar"

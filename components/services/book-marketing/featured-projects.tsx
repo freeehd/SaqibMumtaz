@@ -11,7 +11,7 @@ const featuredProjects = [
     title: "The Art of Leadership",
     author: "Brenda Bence",
     category: "Business & Leadership",
-    image: "/placeholder.svg?height=400&width=300",
+    image: "/images/testimonials/brenda-bence--ranked-top-ten-coach-globally.jpg",
     description: "A comprehensive Amazon PPC and social media campaign that resulted in multiple #1 bestseller rankings.",
     link: "#",
   },

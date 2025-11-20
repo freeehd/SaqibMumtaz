@@ -1,4 +1,11 @@
+import { Metadata } from "next"
 import { HeroSection } from "@/components/hero-section"
+
+export const metadata: Metadata = {
+  title: "Home | Saqib Mumtaz",
+  description:
+    "Transform your book into a bestseller with expert marketing strategies. Join thousands of successful authors.",
+}
 import { StatsSection } from "@/components/stats-section"
 import { ServicesPreview } from "@/components/services-preview"
 import { AboutPreview } from "@/components/about-preview"
@@ -7,7 +14,7 @@ import { GlobalPresence } from "@/components/global-presence"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 import { ArrowRight, Boxes, Rocket, Sparkles, Wrench } from "lucide-react"
-import {TestimonialsCarousel} from "@/components/testimonials-carousel"
+import { TestimonialsCarousel } from "@/components/testimonials-carousel"
 
 function SectionDivider() {
   return (

@@ -11,7 +11,7 @@ import {
   Lightbulb,
 } from "lucide-react"
 import { useEffect, useState } from "react"
-import { PopupModal } from "react-calendly"
+import { GoogleCalendarModal } from "@/components/google-calendar-modal"
 
 const corporateTopics = [
   "AI Integration in Marketing Departments",
@@ -186,11 +186,9 @@ export function CorporateTraining() {
           </motion.div>
         </div>
       </div>
-      {isClient && <PopupModal
-        url="https://calendly.com/saqib-mumtaz"
-        onModalClose={() => setIsOpen(false)}
-        open={isOpen}
-        rootElement={document.body}
+      {isClient && <GoogleCalendarModal
+        isOpen={isOpen}
+        onClose={() => setIsOpen(false)}
       />}
     </section>
   )

@@ -1,4 +1,11 @@
+import { Metadata } from "next"
 import { BookPublishingHero } from "@/components/services/book-publishing/hero"
+
+export const metadata: Metadata = {
+  title: "Book Publishing Services | Professional Publishing",
+  description:
+    "Professional book publishing services guiding you from manuscript to marketplace. Editing, formatting, cover design, and distribution.",
+}
 import { BookPublishingContent } from "@/components/services/book-publishing/content-section"
 import { PublishingPricingPackages } from "@/components/services/book-publishing/pricing-packages"
 import { PublishingProcessWorkflow } from "@/components/services/book-publishing/publishing-workflow"

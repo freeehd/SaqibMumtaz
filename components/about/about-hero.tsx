@@ -4,7 +4,7 @@ import { motion } from "framer-motion"
 import { Download, Calendar, Award, Globe, Users } from "lucide-react"
 import Image from "next/image"
 import { useEffect, useState } from "react"
-import { PopupModal } from "react-calendly"
+import { GoogleCalendarModal } from "@/components/google-calendar-modal"
 
 const quickStats = [
   {
@@ -194,11 +194,9 @@ export function AboutHero() {
         </div>
       </div>
       {isClient && (
-        <PopupModal
-          url="https://calendly.com/saqib-mumtaz"
-          onModalClose={() => setIsOpen(false)}
-          open={isOpen}
-          rootElement={document.body}
+        <GoogleCalendarModal
+          isOpen={isOpen}
+          onClose={() => setIsOpen(false)}
         />
       )}
     </section>

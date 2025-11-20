@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button"
 import { motion } from "framer-motion"
 import { ArrowRight } from "lucide-react"
 import { useEffect, useState } from "react"
-import { PopupModal } from "react-calendly"
+import { GoogleCalendarModal } from "@/components/google-calendar-modal"
 
 export function CtaSection() {
   const [isOpen, setIsOpen] = useState(false)
@@ -39,11 +39,9 @@ export function CtaSection() {
           </Button>
         </motion.div>
       </div>
-      {isClient && <PopupModal
-        url="https://calendly.com/saqib-mumtaz"
-        onModalClose={() => setIsOpen(false)}
-        open={isOpen}
-        rootElement={document.body}
+      {isClient && <GoogleCalendarModal
+        isOpen={isOpen}
+        onClose={() => setIsOpen(false)}
       />}
     </section>
   )

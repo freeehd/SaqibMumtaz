@@ -19,7 +19,7 @@ export const testimonials: Testimonial[] = [
     rating: 5,
     date: "August 21, 2025",
     testimonial: "Syed is a pro when it comes to book marketing and promotion. He really helped me a bunch when launching my first book and when I didn't know what to do. What I appreciate the most is how he tailors strategies to your unique situation instead of rinse-and-repeat tactics.",
-    avatar: "https://media.licdn.com/dms/image/v2/D4E03AQG-B3W11477Og/profile-displayphoto-shrink_100_100/B4EZaIWWHGGQAU-/0/1746044281652?e=1761177600&v=beta&t=PtFblnBZayCpW7znk-90f8GmIgipAuoevvJ_XM3BbkA",
+    avatar: "/images/testimonials/rafael-romis.jpg",
   },
   {
     name: "Daniel Jackman",
@@ -29,7 +29,7 @@ export const testimonials: Testimonial[] = [
     rating: 5,
     date: "July 14, 2025",
     testimonial: "We have worked with Syed for over three years. His work specializes in Amazon ads for our English, German, and Spanish editions across multiple markets. If you publish your books on Amazon, Syed can help you reach a wider audience and drive greater sales.",
-    avatar: "https://media.licdn.com/dms/image/v2/D5603AQFSkxFIf2uq6w/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1726571846675?e=1761177600&v=beta&t=PJo43sO1Qc7z-Y8AinyfnKpHKR_ST_pnnYOw3oRFUd0",
+    avatar: "/images/testimonials/daniel-jackman.jpg",
   },
   {
     name: "Michael Ehiginwa (PMP, CBAP, ITIL)",
@@ -39,7 +39,7 @@ export const testimonials: Testimonial[] = [
     rating: 5,
     date: "February 3, 2025",
     testimonial: "I worked with Syed for about five months on my book. He was very professional and brought deep insights into book marketing. His experience is profound and his objectivity refreshing. I will definitely want to work with Syed again.",
-    avatar: "https://media.licdn.com/dms/image/v2/C5603AQHJhSUyXPj03A/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1653584787470?e=1761177600&v=beta&t=InLwpsJJiKBgCwzOThbeeqH03TCCBSKwRwM0nj6njB0",
+    avatar: "/images/testimonials/michael-ehiginwa--pmp--cbap--itil-.jpg",
   },
   {
     name: "Nick Singleton",
@@ -49,7 +49,7 @@ export const testimonials: Testimonial[] = [
     rating: 5,
     date: "December 19, 2024",
     testimonial: "Syed actively engages with his clients to gather the information needed to drive success. I would recommend him to anyone wanting to publish books; his industry knowledge and work ethic are top tier.",
-    avatar: "https://media.licdn.com/dms/image/v2/C5603AQFeSw9JN_jSdw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1517559509858?e=1761177600&v=beta&t=EpeJsA6LONEIZEUFohq1_hiCBomImba3g12z7ZejQuQ",
+    avatar: "/images/testimonials/nick-singleton.jpg",
   },
   {
     name: "Hisham Sarwar",
@@ -59,7 +59,7 @@ export const testimonials: Testimonial[] = [
     rating: 5,
     date: "October 8, 2024",
     testimonial: "Syed Saqib Mumtaz is an amazing, skilled resource for Kindle ebook creation and marketing. His added strength is LinkedIn advertising. He is highly knowledgeable and I recommend him for Amazon Kindle Direct Publishing.",
-    avatar: "https://media.licdn.com/dms/image/v2/D4D35AQGZvUbMUyn08Q/profile-framedphoto-shrink_100_100/B4DZku2Ct1GgAo-/0/1757427543157?e=1758664800&v=beta&t=dfP5a9E28wGnQOgqvnhh3zfw4zjS96Sd30aU4wQHJuI",
+    avatar: "/images/testimonials/hisham-sarwar.jpg",
   },
   {
     name: "Salman Qaisrani",
@@ -69,7 +69,7 @@ export const testimonials: Testimonial[] = [
     rating: 5,
     date: "October 5, 2024",
     testimonial: "Syed Saqib Mumtaz is an excellent leader in his field and executes his assignments with professionalism and enthusiasm. His analysis and recommended actions are commendable. I worked with him on a workshop marketing project and his efforts were far-reaching and effective.",
-    avatar: "https://media.licdn.com/dms/image/v2/D4D03AQG2PkL3-DSvBg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1719017156408?e=1761177600&v=beta&t=zkolGHzi6RS9hL81Ur7ckvQDp3w2m6fuvHxk6wE2jmQ",
+    avatar: "/images/testimonials/salman-qaisrani.jpg",
   },
   {
     name: "Uma Vanka",
@@ -79,7 +79,7 @@ export const testimonials: Testimonial[] = [
     rating: 5,
     date: "April 25, 2024",
     testimonial: "Reliability, ownership and attention to detail are the three qualities you get from Syed. You can hand him your marketing activities and he will manage them end-to-end, celebrating wins and being transparent when something can't be delivered. I've worked with him for years and that ownership keeps me coming back.",
-    avatar: "https://media.licdn.com/dms/image/v2/D4E03AQEokjlwWEkLbg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1689299057701?e=1761177600&v=beta&t=MSQ0y_61OM-AVNfoiI169MIh_4APXBuy9L6uYPzCXIU",
+    avatar: "/images/testimonials/uma-vanka.jpg",
   },
   {
     name: "Roua Arfaoui",
@@ -89,7 +89,7 @@ export const testimonials: Testimonial[] = [
     rating: 5,
     date: "April 1, 2024",
     testimonial: "I had the pleasure of working with Syed on promoting my client's book on Amazon, and his expertise made a significant difference. He understands Amazon's algorithms and SEO strategies, which boosted visibility and sales. His proactive approach, attention to detail and dedication to results were truly impressive.",
-    avatar: "https://media.licdn.com/dms/image/v2/D4E03AQHPsN0sdyVfig/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1686156539706?e=1761177600&v=beta&t=lq8bOmIfkB3Hh3ALhYq8FdtLuaMK0GmJBhUAuTXh1YU",
+    avatar: "/images/testimonials/roua-arfaoui.jpg",
   },
   {
     name: "Yasmin Elahi",
@@ -99,7 +99,7 @@ export const testimonials: Testimonial[] = [
     rating: 5,
     date: "November 7, 2023",
     testimonial: "It was really a pleasure to interact with Syed Saqib Mumtaz. He knows his job well, is polite, patient, and very cooperative. He guided me through promoting my book on Facebook and his advice was beyond excellent. I highly recommend him if you want value for your money.",
-    avatar: "https://media.licdn.com/dms/image/v2/D5603AQFxlMMx6r5ncg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1700074528043?e=1761177600&v=beta&t=fUqeORSQPMMakrxLzwQ_t_irV5jeMYQhOA95acY7QYE",
+    avatar: "/images/testimonials/yasmin-elahi.jpg",
   },
   {
     name: "Kevin Romanteau",
@@ -109,7 +109,7 @@ export const testimonials: Testimonial[] = [
     rating: 5,
     date: "August 19, 2023",
     testimonial: "I had the pleasure to consult Syed for launching my book and can confidently say that he is dedicated and well-qualified.",
-    avatar: "https://media.licdn.com/dms/image/v2/D4E03AQGYgCj-YBC2OQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1718271410078?e=1761177600&v=beta&t=aK9GtZG3GFfVdId-8n_WHyzwlPvmQCFsuSCJakO1YVk",
+    avatar: "/images/testimonials/kevin-romanteau.jpg",
   },
   {
     name: "Gavin Coyle CMIOSH I MBS",
@@ -119,7 +119,7 @@ export const testimonials: Testimonial[] = [
     rating: 5,
     date: "January 20, 2023",
     testimonial: "Syed is amazing, he is a true expert in his field. He is always available and makes great recommendations to help make your book No. 1 in its category. He also plays a vital role in managing how your book receives traffic on Amazon. Highly recommended.",
-    avatar: "https://media.licdn.com/dms/image/v2/D4E03AQFucDLCq3jzyA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1710852892517?e=1761177600&v=beta&t=UF81DZmf5BnhpEpUaUWQu-vGn0Vwe8FE0DV-UFyzaH8",
+    avatar: "/images/testimonials/gavin-coyle-cmiosh-i-mbs.jpg",
   },
   {
     name: "Kashmir Maryam, MFT",
@@ -129,7 +129,7 @@ export const testimonials: Testimonial[] = [
     rating: 5,
     date: "December 16, 2022",
     testimonial: "Syed did a wonderful job of marketing my books on Amazon KDP. He is very knowledgeable in his field and offered great professional advice throughout the process. I highly recommend him.",
-    avatar: "https://media.licdn.com/dms/image/v2/C4D03AQG55VvEnOZs-w/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1601051390279?e=1761177600&v=beta&t=6DpeeY_rmVo25TeJhP3vlwatSWV_xfFtdcmu4CVYbbo",
+    avatar: "/images/testimonials/kashmir-maryam--mft.jpg",
   },
   {
     name: "Nauman Munir Afzal",
@@ -139,7 +139,7 @@ export const testimonials: Testimonial[] = [
     rating: 5,
     date: "November 21, 2022",
     testimonial: "He's a professional with a very positive attitude who sticks to timelines.",
-    avatar: "https://media.licdn.com/dms/image/v2/C4E03AQFAB02f1gvybA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1610339232077?e=1761177600&v=beta&t=TEpN4mCZdga4X-IPIZWCsmZzfOumOaA7FdvKZ-a2Rp0",
+    avatar: "/images/testimonials/nauman-munir-afzal.jpg",
   },
   {
     name: "Brenda Bence, Ranked Top Ten Coach Globally",
@@ -149,7 +149,7 @@ export const testimonials: Testimonial[] = [
     rating: 5,
     date: "November 20, 2022",
     testimonial: "I have worked with Syed for the past year as he helped me advertise one of our books on Amazon. He was devoted to doing everything he could to help the book achieve strong sales, and that focus has paid off with multiple bestseller status. I am grateful for his attention and suggestions!",
-    avatar: "https://media.licdn.com/dms/image/v2/D4D03AQHxSBMaD-H01g/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1686635822104?e=1761177600&v=beta&t=o9vCgSMQMURZ2m2N8bzWeeO8rCoQtrcc6oyt6D3lJcs",
+    avatar: "/images/testimonials/brenda-bence--ranked-top-ten-coach-globally.jpg",
   },
   {
     name: "Leah Stockford",
@@ -159,7 +159,7 @@ export const testimonials: Testimonial[] = [
     rating: 5,
     date: "November 13, 2022",
     testimonial: "I've worked with Saqib for over a year on Amazon Advertising for my books. He's helped me become a frequent No. 1 bestseller and continues to grow my business. Highly recommended.",
-    avatar: "https://media.licdn.com/dms/image/v2/C4D03AQHsB2nr0KfRqA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1618486155380?e=1761177600&v=beta&t=dsKdD5DeZ0cqdUsVKYQP6YG9E__-k5UY8l1r1GYwr5E",
+    avatar: "/images/testimonials/leah-stockford.jpg",
   },
   {
     name: "Adnan Zaka",
@@ -169,7 +169,7 @@ export const testimonials: Testimonial[] = [
     rating: 5,
     date: "November 11, 2022",
     testimonial: "Syed Saqib is an exceptional digital marketer. He audited our entire bookshelf, recommended key changes, and re-planned our launches with unique strategies. Working with him is a pleasure and has been very fruitful. We're now collaborating on multiple new projects.",
-    avatar: "https://media.licdn.com/dms/image/v2/D4D03AQGeONw3HdRgGw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1732132617624?e=1761177600&v=beta&t=kMkBRNZAol1-VWavRVwwGltHXHn_WQRss6tAv6pr708",
+    avatar: "/images/testimonials/adnan-zaka.jpg",
   },
   {
     name: "Albert Griesmayr",
@@ -179,7 +179,7 @@ export const testimonials: Testimonial[] = [
     rating: 5,
     date: "November 8, 2022",
     testimonial: "I got to know and value Syed as a trusted provider of Amazon Ads and Amazon SEO data over the last few years. I've consulted with him on multiple advertising campaigns and his input was always valuable. He combines book marketing experience with a strong understanding of data and a passion for making books successful.",
-    avatar: "https://media.licdn.com/dms/image/v2/D4D35AQF2yGz7vxU2OA/profile-framedphoto-shrink_100_100/B4DZjljQtiGgAk-/0/1756197883047?e=1758664800&v=beta&t=MCFS3AQ6lnLzszRGDTQg3AFRDrck2hdm6bEtgYme1SQ",
+    avatar: "/images/testimonials/albert-griesmayr.jpg",
   },
   {
     name: "Ann S.",
@@ -189,7 +189,7 @@ export const testimonials: Testimonial[] = [
     rating: 5,
     date: "November 7, 2022",
     testimonial: "Syed is wonderful to work with, a very good communicator who makes suggestions based on his extensive knowledge. He helped me publish my book in a timely fashion. I highly recommend his services.",
-    avatar: "https://media.licdn.com/dms/image/v2/D5603AQHOcFPbgWQKqw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1730584667608?e=1761177600&v=beta&t=Ddkg9R9FdNsiu07bem4EBLaEFRoY3pbbKsQ_q9vylF8",
+    avatar: "/images/testimonials/ann-s-.jpg",
   },
   {
     name: "M. Azam Awan",
@@ -199,7 +199,7 @@ export const testimonials: Testimonial[] = [
     rating: 5,
     date: "November 7, 2022",
     testimonial: "Syed is an extremely knowledgeable and expert digital marketer. He creates strategies for book success and has excellent knowledge of Amazon KDP, Amazon PPC, and digital publishing. He is very cooperative to work with.",
-    avatar: "https://media.licdn.com/dms/image/v2/D4D35AQHGwVfvfzWEng/profile-framedphoto-shrink_100_100/B4DZcz7hOiGgAo-/0/1748922930476?e=1758664800&v=beta&t=FOuJh59xFko2grcCFx8Z3AfxcoCTH59ReP-2-HRyqsk",
+    avatar: "/images/testimonials/m--azam-awan.jpg",
   },
   {
     name: "David Angeron",
@@ -209,7 +209,7 @@ export const testimonials: Testimonial[] = [
     rating: 5,
     date: "November 3, 2022",
     testimonial: "Syed does great work and is extremely knowledgeable about Amazon advertising.",
-    avatar: "https://media.licdn.com/dms/image/v2/D5635AQFv_IFr3JaYXw/profile-framedphoto-shrink_100_100/B56ZhN4YcNG0Ak-/0/1753653282827?e=1758664800&v=beta&t=Og2MpuBrSYiXInpRkXFMnCFQpJeGpb3bnDpIRT_e63I",
+    avatar: "/images/testimonials/david-angeron.jpg",
   },
   {
     name: "Syed Waqas Hashmi",
@@ -219,7 +219,7 @@ export const testimonials: Testimonial[] = [
     rating: 5,
     date: "November 3, 2022",
     testimonial: "Syed is a specialist in book marketing and Amazon KDP. He has been instrumental in training me as an Amazon KDP consultant for authors. His innovative ideas and strategies have worked tremendously well for our clients.",
-    avatar: "https://media.licdn.com/dms/image/v2/D4D03AQFHyVEK8WDRCA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1712045829734?e=1761177600&v=beta&t=LnJqUgYsmLTKPmMpgqiJw0tTk_Ws88-OQWu3KavZCgo",
+    avatar: "/images/testimonials/syed-waqas-hashmi.jpg",
   },
   {
     name: "Muhammad Saad",
@@ -229,6 +229,6 @@ export const testimonials: Testimonial[] = [
     rating: 5,
     date: "November 3, 2022",
     testimonial: "It was great working with Syed Saqib. He helped me hit my targeted sales while keeping advertising costs in check. He delivered the best possible services, helped my products rank organically, and provided recommendations at every step.",
-    avatar: "https://media.licdn.com/dms/image/v2/C4D03AQENp0FFfU3E2Q/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1659285025610?e=1761177600&v=beta&t=cXwyIjgrQJDWbu831dWjGR9u2QtUQKTN5DGIwqYQX_8",
+    avatar: "/images/testimonials/muhammad-saad.jpg",
   },
 ]

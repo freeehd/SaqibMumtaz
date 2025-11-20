@@ -2,7 +2,7 @@
 import { Mail, Phone, MessageCircle, Linkedin, Calendar } from "lucide-react"
 import { Card, CardContent } from "@/components/ui/card"
 import { useEffect, useState } from "react"
-import { PopupModal } from "react-calendly"
+import { GoogleCalendarModal } from "@/components/google-calendar-modal"
 
 export function ContactMethods() {
   const [isOpen, setIsOpen] = useState(false)
@@ -19,7 +19,7 @@ export function ContactMethods() {
       value: "Schedule instantly",
       meta: "60-min strategy session",
       primary: true,
-      action: "calendly",
+      action: "calendar",
     },
     {
       icon: Mail,
@@ -65,8 +65,8 @@ export function ContactMethods() {
           {methods.map((method, index) => (
             <Card
               key={index}
-              className={`text-center transition-all duration-300 hover:shadow-lg hover:-translate-y-1 ${method.primary ? "ring-2 ring-blue-200 bg-blue-50" : ""} ${method.action === "calendly" ? "cursor-pointer" : ""}`}
-              onClick={method.action === "calendly" ? () => setIsOpen(true) : undefined}
+              className={`text-center transition-all duration-300 hover:shadow-lg hover:-translate-y-1 ${method.primary ? "ring-2 ring-blue-200 bg-blue-50" : ""} ${method.action === "calendar" ? "cursor-pointer" : ""}`}
+              onClick={method.action === "calendar" ? () => setIsOpen(true) : undefined}
             >
               <CardContent className="p-6">
                 <div
@@ -82,11 +82,9 @@ export function ContactMethods() {
           ))}
         </div>
       </div>
-      {isClient && <PopupModal
-        url="https://calendly.com/saqib-mumtaz"
-        onModalClose={() => setIsOpen(false)}
-        open={isOpen}
-        rootElement={document.body}
+      {isClient && <GoogleCalendarModal
+        isOpen={isOpen}
+        onClose={() => setIsOpen(false)}
       />}
     </section>
   )

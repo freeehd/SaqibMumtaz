@@ -1,5 +1,5 @@
 "use client";
-import { InlineWidget } from "react-calendly";
+import { GoogleCalendar } from "@/components/google-calendar";
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
@@ -44,7 +44,7 @@ export function HeroSection() {
                 <h2 className="text-2xl font-semibold text-white mb-2">Schedule a Consultation</h2>
                 <p className="text-slate-300">Choose a time that works for you from the calendar below.</p>
               </div>
-              <InlineWidget url="https://calendly.com/saqib-mumtaz" />
+              <GoogleCalendar className="h-[600px]" />
             </div>
           </div>
         </div>

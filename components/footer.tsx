@@ -17,7 +17,7 @@ const serviceLinks = [
 ]
 
 const connectLinks = [
-  { label: "Book a Free Consultation", href: "https://calendly.com/saqib-mumtaz" },
+  { label: "Book a Free Consultation", href: "/contact" },
   { label: "Email Saqib", href: "mailto:saqib@a2zpublishing.com" },
   { label: "LinkedIn", href: "https://www.linkedin.com/in/syed-saqib-mumtaz-hashmi-bookmarketing/" },
 ]
@@ -32,7 +32,7 @@ export function Footer() {
           <div className="grid gap-10 md:grid-cols-4">
             <div className="space-y-4 md:col-span-2">
               <div className="flex items-start gap-3">
-              <img src="/images/head-h1.png" alt="Logo" className="w-16 h-16 rounded-md" />
+                <img src="/images/head-h1.png" alt="Logo" className="w-16 h-16 rounded-md" />
                 <div>
                   <p className="text-lg font-semibold">Syed Saqib Mumtaz</p>
                   <p className="mt-1 text-sm text-slate-400">

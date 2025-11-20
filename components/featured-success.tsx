@@ -63,7 +63,7 @@ export function FeaturedSuccess() {
                   {/* Client Header */}
                   <div className="flex items-start gap-4">
                     <Image
-                      src="/placeholder.svg?height=80&width=80"
+                      src="/images/testimonials/brenda-bence--ranked-top-ten-coach-globally.jpg"
                       alt="Brenda Bence"
                       width={80}
                       height={80}

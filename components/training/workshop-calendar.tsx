@@ -5,7 +5,7 @@ import { Card } from "@/components/ui/card"
 import { CalendarDays, Clock, MapPin } from "lucide-react"
 import Image from "next/image"
 import { useEffect, useState } from "react"
-import { PopupModal } from "react-calendly"
+import { GoogleCalendarModal } from "@/components/google-calendar-modal"
 
 const upcomingEvents = [
   {
@@ -87,7 +87,7 @@ export function WorkshopCalendar() {
                   <CalendarDays className="w-16 h-16 mx-auto mb-4 text-blue-600" />
                   <h4 className="text-xl font-semibold text-slate-900 mb-2">Ready to Get Started?</h4>
                   <p className="text-slate-600 mb-4">Schedule a free consultation to discuss your training needs</p>
-                  <button 
+                  <button
                     onClick={() => setIsOpen(true)}
                     className="inline-flex items-center justify-center rounded-lg bg-blue-600 px-6 py-3 text-white font-semibold hover:bg-blue-700 transition-colors"
                   >
@@ -115,13 +115,12 @@ export function WorkshopCalendar() {
                 >
                   <div className="flex items-center gap-4 mb-3">
                     <div
-                      className={`w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0 ${
-                        event.type === "Masterclass"
-                          ? "bg-blue-100 text-blue-600"
-                          : event.type === "Workshop"
-                            ? "bg-green-100 text-green-600"
-                            : "bg-purple-100 text-purple-600"
-                      }`}
+                      className={`w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0 ${event.type === "Masterclass"
+                        ? "bg-blue-100 text-blue-600"
+                        : event.type === "Workshop"
+                          ? "bg-green-100 text-green-600"
+                          : "bg-purple-100 text-purple-600"
+                        }`}
                     >
                       <CalendarDays className="w-6 h-6" />
                     </div>
@@ -147,11 +146,9 @@ export function WorkshopCalendar() {
           </motion.div>
         </div>
       </div>
-      {isClient && <PopupModal
-        url="https://calendly.com/saqib-mumtaz"
-        onModalClose={() => setIsOpen(false)}
-        open={isOpen}
-        rootElement={document.body}
+      {isClient && <GoogleCalendarModal
+        isOpen={isOpen}
+        onClose={() => setIsOpen(false)}
       />}
     </section>
   )

@@ -8,7 +8,7 @@ import Image from "next/image"
 const projectResults = {
   title: "The Art of Leadership: A Case Study",
   client: "Brenda Bence",
-  image: "/placeholder.svg?height=500&width=400",
+  image: "/images/testimonials/brenda-bence--ranked-top-ten-coach-globally.jpg",
   testimonial:
     "Their strategic approach to Amazon marketing was a complete game-changer. We didn't just see a spike in sales; we built a sustainable platform that continues to grow. The results speak for themselves.",
   metrics: [
@@ -75,7 +75,7 @@ export function ResultsTestimonials() {
                 </blockquote>
                 <div className="flex items-center gap-4">
                   <Image
-                    src="/placeholder-user.jpg"
+                    src="/images/testimonials/brenda-bence--ranked-top-ten-coach-globally.jpg"
                     alt={projectResults.client}
                     width={50}
                     height={50}

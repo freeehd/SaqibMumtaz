@@ -11,7 +11,7 @@ import {
   ArrowRight,
 } from "lucide-react"
 import { useEffect, useState } from "react"
-import { PopupModal } from "react-calendly"
+import { GoogleCalendarModal } from "@/components/google-calendar-modal"
 
 // A single, unified data structure makes mapping and styling easier
 
@@ -89,10 +89,9 @@ export function NextSteps() {
               key={i}
               className={`
                 group p-8 rounded-2xl border flex flex-col transition-all duration-300
-                ${
-                  step.isPrimary
-                    ? "bg-slate-900 border-slate-700 shadow-2xl shadow-slate-900/10"
-                    : "bg-white border-slate-200 hover:shadow-xl hover:border-slate-300 hover:-translate-y-2"
+                ${step.isPrimary
+                  ? "bg-slate-900 border-slate-700 shadow-2xl shadow-slate-900/10"
+                  : "bg-white border-slate-200 hover:shadow-xl hover:border-slate-300 hover:-translate-y-2"
                 }
               `}
             >
@@ -103,25 +102,22 @@ export function NextSteps() {
               `}
               >
                 <step.icon
-                  className={`h-7 w-7 ${
-                    step.isPrimary ? "text-white" : "text-blue-600"
-                  }`}
+                  className={`h-7 w-7 ${step.isPrimary ? "text-white" : "text-blue-600"
+                    }`}
                 />
               </div>
 
               {/* Text content with flex-grow to push button to the bottom */}
               <div className="flex-grow">
                 <h3
-                  className={`text-xl font-bold ${
-                    step.isPrimary ? "text-white" : "text-slate-900"
-                  }`}
+                  className={`text-xl font-bold ${step.isPrimary ? "text-white" : "text-slate-900"
+                    }`}
                 >
                   {step.title}
                 </h3>
                 <p
-                  className={`mt-2 text-sm leading-relaxed ${
-                    step.isPrimary ? "text-slate-400" : "text-slate-600"
-                  }`}
+                  className={`mt-2 text-sm leading-relaxed ${step.isPrimary ? "text-slate-400" : "text-slate-600"
+                    }`}
                 >
                   {step.desc}
                 </p>
@@ -150,11 +146,9 @@ export function NextSteps() {
           ))}
         </div>
       </div>
-      {isClient && <PopupModal
-        url="https://calendly.com/saqib-mumtaz"
-        onModalClose={() => setIsOpen(false)}
-        open={isOpen}
-        rootElement={document.body}
+      {isClient && <GoogleCalendarModal
+        isOpen={isOpen}
+        onClose={() => setIsOpen(false)}
       />}
     </section>
   )

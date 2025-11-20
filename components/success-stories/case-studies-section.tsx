@@ -12,7 +12,7 @@ const caseStudies = [
     client: "Brenda Bence",
     title: "Global Leadership Coach & Keynote Speaker",
     genre: "Business Leadership",
-        image: "https://media.licdn.com/dms/image/v2/D4D03AQHxSBMaD-H01g/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1686635822104?e=1761177600&v=beta&t=o9vCgSMQMURZ2m2N8bzWeeO8rCoQtrcc6oyt6D3lJcs",
+    image: "/images/testimonials/brenda-bence--ranked-top-ten-coach-globally.jpg",
 
     resultsSummary: "Multiple #1 Bestseller Rankings",
     background:
@@ -48,7 +48,7 @@ const caseStudies = [
     client: "Gavin Coyle",
     title: "CEO & Safety Expert",
     genre: "Business/Safety",
-    image:  "https://media.licdn.com/dms/image/v2/D4E03AQFucDLCq3jzyA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1710852892517?e=1761177600&v=beta&t=UF81DZmf5BnhpEpUaUWQu-vGn0Vwe8FE0DV-UFyzaH8",
+    image: "/images/testimonials/gavin-coyle-cmiosh-i-mbs.jpg",
     resultsSummary: "#1 Category Bestseller",
     background:
       "Gavin Coyle, CEO of A&G Coyle Group Ltd, needed to establish thought leadership in the safety industry while generating leads for his consulting business through book marketing.",
@@ -81,7 +81,7 @@ const caseStudies = [
     client: "Albert Griesmayr",
     title: "Publishing Industry Expert",
     genre: "Publishing/Business",
-    image:  "https://media.licdn.com/dms/image/v2/D4D35AQF2yGz7vxU2OA/profile-framedphoto-shrink_100_100/B4DZjljQtiGgAk-/0/1756197883047?e=1758664800&v=beta&t=MCFS3AQ6lnLzszRGDTQg3AFRDrck2hdm6bEtgYme1SQ",
+    image: "/images/testimonials/albert-griesmayr.jpg",
     resultsSummary: "Sustained Long-term Success",
     background:
       "Albert Griesmayr, CEO of Scribando, needed ongoing marketing support for multiple book projects and wanted to work with a trusted partner who understood the publishing industry.",
@@ -114,7 +114,7 @@ const caseStudies = [
     client: "Uma Vanka",
     title: "Management Consulting Expert",
     genre: "Business/Consulting",
-    image: "https://media.licdn.com/dms/image/v2/D4E03AQEokjlwWEkLbg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1689299057701?e=1761177600&v=beta&t=MSQ0y_61OM-AVNfoiI169MIh_4APXBuy9L6uYPzCXIU",
+    image: "/images/testimonials/uma-vanka.jpg",
     resultsSummary: "Complete Marketing Management",
     background:
       "Uma Vanka, a partner at TCS Management Consulting, needed comprehensive marketing support that she could trust to handle independently while she focused on her consulting work.",

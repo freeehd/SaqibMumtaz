@@ -75,9 +75,8 @@ export function TestimonialsCarousel() {
                     setCurrentIndex(index)
                     setIsAutoPlaying(false)
                   }}
-                  className={`w-2 h-2 rounded-full transition-colors ${
-                    index === currentIndex ? "bg-blue-500" : "bg-slate-600"
-                  }`}
+                  className={`w-2 h-2 rounded-full transition-colors ${index === currentIndex ? "bg-blue-500" : "bg-slate-600"
+                    }`}
                 />
               ))}
             </div>

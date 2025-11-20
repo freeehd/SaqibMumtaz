@@ -1,4 +1,11 @@
+import { Metadata } from "next"
 import { HeroSection } from "@/components/contact/hero-section"
+
+export const metadata: Metadata = {
+  title: "Contact Us | Book Marketing Consultation",
+  description:
+    "Get in touch with Saqib Mumtaz for a free consultation on your book marketing strategy. Let's discuss how to make your book a bestseller.",
+}
 import { FreeConsultationDetails } from "@/components/contact/free-consultation-details"
 import { ConsultationProcess } from "@/components/contact/consultation-process"
 import { ContactMethods } from "@/components/contact/contact-methods"

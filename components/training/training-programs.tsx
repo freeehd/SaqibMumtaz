@@ -15,7 +15,7 @@ import {
   ChevronUp,
   Youtube,
 } from "lucide-react"
-import { PopupModal } from "react-calendly"
+import { GoogleCalendarModal } from "@/components/google-calendar-modal"
 
 const programs = [
   {
@@ -269,69 +269,62 @@ export function TrainingPrograms() {
               transition={{ duration: 0.6, delay: index * 0.1 }}
             >
               <Card
-                className={`border-0 shadow-lg transition-all duration-300 ${
-                  program.highlight
-                    ? "bg-blue-600 text-white shadow-xl scale-105"
-                    : "bg-white text-slate-900"
-                }`}
+                className={`border-0 shadow-lg transition-all duration-300 ${program.highlight
+                  ? "bg-blue-600 text-white shadow-xl scale-105"
+                  : "bg-white text-slate-900"
+                  }`}
               >
                 <CardContent className="p-8">
                   <div className="space-y-6">
                     <div
-                      className={`w-16 h-16 mx-auto rounded-2xl flex items-center justify-center ${
-                        program.highlight
-                          ? "bg-white/20 text-white"
-                          : "bg-blue-100 text-blue-600"
-                      }`}
+                      className={`w-16 h-16 mx-auto rounded-2xl flex items-center justify-center ${program.highlight
+                        ? "bg-white/20 text-white"
+                        : "bg-blue-100 text-blue-600"
+                        }`}
                     >
                       <program.icon className="w-8 h-8" />
                     </div>
                     <h3
-                      className={`text-2xl font-bold text-center ${
-                        program.highlight
-                          ? "text-white"
-                          : "text-slate-900"
-                      } mb-2`}
+                      className={`text-2xl font-bold text-center ${program.highlight
+                        ? "text-white"
+                        : "text-slate-900"
+                        } mb-2`}
                     >
                       {program.title}
                     </h3>
                     <div className="text-center space-y-2">
                       <p
-                        className={`text-sm ${
-                          program.highlight
-                            ? "text-blue-100"
-                            : "text-slate-600"
-                        }`}
+                        className={`text-sm ${program.highlight
+                          ? "text-blue-100"
+                          : "text-slate-600"
+                          }`}
                       >
                         <span className="font-semibold">Duration:</span>{" "}
                         {program.duration}
                       </p>
                       <p
-                        className={`text-sm ${
-                          program.highlight
-                            ? "text-blue-100"
-                            : "text-slate-600"
-                        }`}
+                        className={`text-sm ${program.highlight
+                          ? "text-blue-100"
+                          : "text-slate-600"
+                          }`}
                       >
                         <span className="font-semibold">Format:</span>{" "}
                         {program.format}
                       </p>
                       <p
-                        className={`text-sm ${
-                          program.highlight
-                            ? "text-blue-100"
-                            : "text-slate-600"
-                        }`}
+                        className={`text-sm ${program.highlight
+                          ? "text-blue-100"
+                          : "text-slate-600"
+                          }`}
                       >
                         <span className="font-semibold">Investment:</span>{" "}
                         {program.investment}
                       </p>
                       <p
-                        className={`text-sm ${
-                          program.highlight
-                            ? "text-blue-100"
-                            : "text-slate-600"
-                        }`}
+                        className={`text-sm ${program.highlight
+                          ? "text-blue-100"
+                          : "text-slate-600"
+                          }`}
                       >
                         <span className="font-semibold">Next Cohort:</span>{" "}
                         {program.nextCohort}
@@ -339,11 +332,10 @@ export function TrainingPrograms() {
                     </div>
 
                     <p
-                      className={`text-center ${
-                        program.highlight
-                          ? "text-blue-100"
-                          : "text-slate-700"
-                      }`}
+                      className={`text-center ${program.highlight
+                        ? "text-blue-100"
+                        : "text-slate-700"
+                        }`}
                     >
                       {program.overview}
                     </p>
@@ -353,11 +345,10 @@ export function TrainingPrograms() {
                       <Button
                         variant="ghost"
                         onClick={() => toggleCard(program.id)}
-                        className={`w-full flex items-center justify-center gap-2 ${
-                          program.highlight
-                            ? "text-white hover:bg-white/10"
-                            : "text-slate-700 hover:bg-slate-100"
-                        }`}
+                        className={`w-full flex items-center justify-center gap-2 ${program.highlight
+                          ? "text-white hover:bg-white/10"
+                          : "text-slate-700 hover:bg-slate-100"
+                          }`}
                       >
                         View Details
                         {expandedCard === program.id ? (
@@ -380,11 +371,10 @@ export function TrainingPrograms() {
                               {/* Curriculum */}
                               <div>
                                 <h4
-                                  className={`text-lg font-semibold mb-3 ${
-                                    program.highlight
-                                      ? "text-white"
-                                      : "text-slate-800"
-                                  }`}
+                                  className={`text-lg font-semibold mb-3 ${program.highlight
+                                    ? "text-white"
+                                    : "text-slate-800"
+                                    }`}
                                 >
                                   {program.id === "webinar-series"
                                     ? "Upcoming Topics:"
@@ -398,11 +388,10 @@ export function TrainingPrograms() {
                                         className="space-y-2"
                                       >
                                         <h5
-                                          className={`font-semibold ${
-                                            program.highlight
-                                              ? "text-white"
-                                              : "text-slate-700"
-                                          }`}
+                                          className={`font-semibold ${program.highlight
+                                            ? "text-white"
+                                            : "text-slate-700"
+                                            }`}
                                         >
                                           {item.week}
                                         </h5>
@@ -414,18 +403,16 @@ export function TrainingPrograms() {
                                                 className="flex items-start gap-2"
                                               >
                                                 <CheckCircle
-                                                  className={`w-4 h-4 flex-shrink-0 mt-1 ${
-                                                    program.highlight
-                                                      ? "text-white"
-                                                      : "text-blue-600"
-                                                  }`}
+                                                  className={`w-4 h-4 flex-shrink-0 mt-1 ${program.highlight
+                                                    ? "text-white"
+                                                    : "text-blue-600"
+                                                    }`}
                                                 />
                                                 <span
-                                                  className={`text-sm ${
-                                                    program.highlight
-                                                      ? "text-blue-100"
-                                                      : "text-slate-600"
-                                                  }`}
+                                                  className={`text-sm ${program.highlight
+                                                    ? "text-blue-100"
+                                                    : "text-slate-600"
+                                                    }`}
                                                 >
                                                   {topic}
                                                 </span>
@@ -442,11 +429,10 @@ export function TrainingPrograms() {
                               {/* What's Included */}
                               <div>
                                 <h4
-                                  className={`text-lg font-semibold mb-3 ${
-                                    program.highlight
-                                      ? "text-white"
-                                      : "text-slate-800"
-                                  }`}
+                                  className={`text-lg font-semibold mb-3 ${program.highlight
+                                    ? "text-white"
+                                    : "text-slate-800"
+                                    }`}
                                 >
                                   What's Included:
                                 </h4>
@@ -458,18 +444,16 @@ export function TrainingPrograms() {
                                         className="flex items-start gap-3"
                                       >
                                         <CheckCircle
-                                          className={`w-5 h-5 flex-shrink-0 ${
-                                            program.highlight
-                                              ? "text-white"
-                                              : "text-green-600"
-                                          }`}
+                                          className={`w-5 h-5 flex-shrink-0 ${program.highlight
+                                            ? "text-white"
+                                            : "text-green-600"
+                                            }`}
                                         />
                                         <span
-                                          className={`text-sm ${
-                                            program.highlight
-                                              ? "text-blue-100"
-                                              : "text-slate-700"
-                                          }`}
+                                          className={`text-sm ${program.highlight
+                                            ? "text-blue-100"
+                                            : "text-slate-700"
+                                            }`}
                                         >
                                           {item}
                                         </span>
@@ -483,20 +467,18 @@ export function TrainingPrograms() {
                               {program.outcomes && (
                                 <div>
                                   <h4
-                                    className={`text-lg font-semibold mb-3 ${
-                                      program.highlight
-                                        ? "text-white"
-                                        : "text-slate-800"
-                                    }`}
+                                    className={`text-lg font-semibold mb-3 ${program.highlight
+                                      ? "text-white"
+                                      : "text-slate-800"
+                                      }`}
                                   >
                                     Learning Outcomes:
                                   </h4>
                                   <p
-                                    className={`text-sm mb-3 ${
-                                      program.highlight
-                                        ? "text-blue-100"
-                                        : "text-slate-600"
-                                    }`}
+                                    className={`text-sm mb-3 ${program.highlight
+                                      ? "text-blue-100"
+                                      : "text-slate-600"
+                                      }`}
                                   >
                                     By the end of this program, you'll be able
                                     to:
@@ -509,18 +491,16 @@ export function TrainingPrograms() {
                                           className="flex items-start gap-3"
                                         >
                                           <CheckCircle
-                                            className={`w-5 h-5 flex-shrink-0 ${
-                                              program.highlight
-                                                ? "text-white"
-                                                : "text-orange-600"
-                                            }`}
+                                            className={`w-5 h-5 flex-shrink-0 ${program.highlight
+                                              ? "text-white"
+                                              : "text-orange-600"
+                                              }`}
                                           />
                                           <span
-                                            className={`text-sm ${
-                                              program.highlight
-                                                ? "text-blue-100"
-                                                : "text-slate-700"
-                                            }`}
+                                            className={`text-sm ${program.highlight
+                                              ? "text-blue-100"
+                                              : "text-slate-700"
+                                              }`}
                                           >
                                             {outcome}
                                           </span>
@@ -544,11 +524,10 @@ export function TrainingPrograms() {
                       >
                         <Button
                           size="lg"
-                          className={`w-full ${
-                            program.highlight
-                              ? "bg-white text-blue-600 hover:bg-blue-50"
-                              : "bg-blue-600 hover:bg-blue-700 text-white"
-                          }`}
+                          className={`w-full ${program.highlight
+                            ? "bg-white text-blue-600 hover:bg-blue-50"
+                            : "bg-blue-600 hover:bg-blue-700 text-white"
+                            }`}
                         >
                           {program.id === "webinar-series" ? (
                             <span className="inline-flex items-center justify-center gap-2">
@@ -566,11 +545,10 @@ export function TrainingPrograms() {
                     ) : (
                       <Button
                         size="lg"
-                        className={`w-full ${
-                          program.highlight
-                            ? "bg-white text-blue-600 hover:bg-blue-50"
-                            : "bg-blue-600 hover:bg-blue-700 text-white"
-                        }`}
+                        className={`w-full ${program.highlight
+                          ? "bg-white text-blue-600 hover:bg-blue-50"
+                          : "bg-blue-600 hover:bg-blue-700 text-white"
+                          }`}
                         onClick={() => setIsOpen(true)}
                       >
                         {program.buttonText}
@@ -590,11 +568,9 @@ export function TrainingPrograms() {
           ))}
         </div>
       </div>
-      {isClient && <PopupModal
-        url="https://calendly.com/saqib-mumtaz"
-        onModalClose={() => setIsOpen(false)}
-        open={isOpen}
-        rootElement={document.body}
+      {isClient && <GoogleCalendarModal
+        isOpen={isOpen}
+        onClose={() => setIsOpen(false)}
       />}
     </section>
   )
