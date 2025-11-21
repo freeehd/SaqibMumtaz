@@ -36,7 +36,7 @@ export function OfficeInformation() {
             <Mail className="w-8 h-8 text-blue-600 mx-auto mb-4" />
             <h3 className="text-lg font-semibold text-slate-900 mb-2">Email</h3>
             <p className="text-slate-600">
-              <a href="mailto:hello@example.com" className="hover:text-blue-600 transition-colors">
+              <a href="mailto:ceo@a2zpublishing.com" className="hover:text-blue-600 transition-colors">
                 hello@example.com
               </a>
             </p>

@@ -18,7 +18,7 @@ const serviceLinks = [
 
 const connectLinks = [
   { label: "Book a Free Consultation", href: "/contact" },
-  { label: "Email Saqib", href: "mailto:saqib@a2zpublishing.com" },
+  { label: "Email Saqib", href: "mailto:ceo@a2zpublishing.com" },
   { label: "LinkedIn", href: "https://www.linkedin.com/in/syed-saqib-mumtaz-hashmi-bookmarketing/" },
 ]
 

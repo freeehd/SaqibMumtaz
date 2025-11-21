@@ -135,7 +135,7 @@ export function HeroSection() {
                   </Link>
                 </motion.div>
                 <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
-                  <Link href="mailto:saqib@a2zpublishing.com" className="hover:text-white transition-colors">
+                  <Link href="mailto:ceo@a2zpublishing.com" className="hover:text-white transition-colors">
                     <span className="inline-flex items-center gap-2"><Mail className="w-5 h-5" /> Email</span>
                   </Link>
                 </motion.div>

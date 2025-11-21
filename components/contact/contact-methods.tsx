@@ -27,7 +27,7 @@ export function ContactMethods() {
       value: "saqib@a2zpublishing.com",
       meta: "Response within 24 hours",
       primary: false,
-      href: "mailto:saqib@a2zpublishing.com",
+      href: "mailto:ceo@a2zpublishing.com",
     },
     {
       icon: Linkedin,
