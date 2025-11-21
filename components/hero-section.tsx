@@ -24,8 +24,8 @@ export function HeroSection() {
       text: "Mumtaz",
       className: "bg-white bg-clip-text text-transparent",
     },
- 
-  
+
+
   ];
 
   return (
@@ -78,7 +78,7 @@ export function HeroSection() {
                 transition={{ duration: 0.6, delay: 1.5 }}
                 className="text-xl text-slate-300 leading-relaxed max-w-2xl"
               >
-               Digital marketer, publisher, best seller maker and keynote speaker — I craft AI-driven strategies that transform books into best sellers with marketing strategies that work. and brands into powerful growth engines, , entrepreneurs, and teams launch, scale, and thrive.
+                Digital marketer, publisher, best seller maker and keynote speaker — I craft AI-driven strategies that transform books into best sellers with marketing strategies that work. and brands into powerful growth engines, , entrepreneurs, and teams launch, scale, and thrive.
               </motion.p>
             </div>
             {/* CTA Buttons */}
@@ -135,7 +135,7 @@ export function HeroSection() {
                   </Link>
                 </motion.div>
                 <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
-                  <Link href="mailto:hello@saqibhashmi.com" className="hover:text-white transition-colors">
+                  <Link href="mailto:saqib@a2zpublishing.com" className="hover:text-white transition-colors">
                     <span className="inline-flex items-center gap-2"><Mail className="w-5 h-5" /> Email</span>
                   </Link>
                 </motion.div>

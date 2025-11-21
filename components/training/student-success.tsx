@@ -118,7 +118,7 @@ export function StudentSuccess() {
         >
           <h3 className="text-3xl font-bold text-slate-900 mb-4">Ready to Write Your Success Story?</h3>
           <p className="text-slate-600 mb-8 max-w-2xl mx-auto text-lg">
-            Join hundreds of authors who have transformed their book marketing with our proven AI-powered strategies. 
+            Join hundreds of authors who have transformed their book marketing with our proven AI-powered strategies.
             Your success story could be next.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -134,7 +134,7 @@ export function StudentSuccess() {
             </a>
           </div>
           <p className="text-sm text-slate-500 mt-4">
-            Prefer to chat? <a href="tel:+92-XXX-XXXXXXX" className="text-blue-600 hover:underline">Call us directly</a> or <a href="mailto:saqib@a2zpublishing.com" className="text-blue-600 hover:underline">email us</a>
+            Prefer to chat? <a href="mailto:saqib@a2zpublishing.com" className="text-blue-600 hover:underline">email us</a>
           </p>
         </motion.div>
       </div>

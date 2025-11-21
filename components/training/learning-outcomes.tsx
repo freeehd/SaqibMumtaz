@@ -88,7 +88,7 @@ export function LearningOutcomes() {
             </motion.div>
           ))}
         </div>
-        
+
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -105,7 +105,7 @@ export function LearningOutcomes() {
                 Book Free Consultation
               </button>
             </a>
-            <a href="tel:+92-XXX-XXXXXXX" className="inline-block">
+            <a href="mailto:saqib@a2zpublishing.com" className="inline-block">
               <button className="inline-flex items-center justify-center rounded-lg border border-slate-300 px-8 py-3 text-slate-700 font-semibold hover:bg-slate-100 transition-colors bg-white">
                 Call Now
               </button>
